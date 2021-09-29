@@ -133,6 +133,7 @@ ul { line-height: 2; }
 .tm-h3 {
     font-size: 1.6rem;
     margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .tm-h2-big { font-size: 2.5rem; }
