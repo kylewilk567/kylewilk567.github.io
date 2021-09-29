@@ -50,9 +50,6 @@
                                         <a class="nav-link tm-nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link tm-nav-link" href="about.html">About</a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a class="nav-link tm-nav-link" href="gallery.html">Gallery</a>
                                     </li>
                                     <li class="nav-item">
@@ -89,13 +86,13 @@
                 <div class="col-lg-8" text-center>
                     <div class="tm-box-3">
                         <p>I am a junior studying Computer Science  with a minor in Electrical Engineering at the University of Michigan.
-                        My grandpa and my father studied at U of M, so I felt propelled to follow in their footsteps. When I first came
+                        My grandpa and my father studied at UM, so I felt propelled to follow in their footsteps. When I first came
                         to college, I did not know what I wanted to do. I had always loved math and science as a kid (having learned to 
                         count money by age 4), but I did not find my love for programming until shortly after my freshman year when I began
-                        programming in Minecraft for fun. I quickly preferred programming to actually playing the game itself! What I most like
+                        programming in Minecraft for fun. I quickly preferred programming to playing the game itself! What I most like
                         about programming is the necessity of breaking down a complex problem into tiny parts that a computer can understand and the
                         satisfaction that comes from a working program. I am eager to keep learning about algorithms to use as tools to solve complex
-                        problems as well as make existing programs more efficient. My first goal is to learn more about machine learning. You can read
+                        problems as well as make existing programs more efficient. My first goal is to learn more about machine learning using neural networks. You can read
                         more about the related project (FDM 3D Printing Fault Prediction) below.
                         </p>
                     </div>
@@ -103,28 +100,37 @@
                 <div class="col-lg-4 text-center">
                     <div class="tm-box-3">
                         <img src="img/autoFDPSensor.png" width="100" />
-                        <h3 class="tm-h3 tm-text-primary">3D Printing Research</h3>
+                        <h3 class="tm-h3 tm-text-primary">FDM 3D Printing Fault Detection</h3>
                         <p>I worked with the Mechanical Engineering Department at UM to develop software for a low-cost,
-                        consumer-grade touch probe sensor that can accurately detect a wide-range of faults. You can find
-                        more about the project on our Gitlab Repo 
+                        consumer-grade touch probe sensor that can accurately detect a wide-range of faults. The software
+                        was developed as a plugin to Octoprint, a popular 3D printing application that allows the user to
+                        control their printer remotely. You can find more about the project on the Gitlab Repo 
                         <a href="https://gitlab.umich.edu/ngchan/octoprint-autofdp/-/tree/kyle/">here</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 text-center">
                     <div class="tm-box-1">
-                        <i class="fas fa-box-open fa-4x tm-icon-1"></i>
-                        <h3 class="tm-h3 tm-text-primary">New Marketing Strategies</h3>
+                        <img src="img/NeuralNetwork.gif" width="150" />
+                        <h3 class="tm-h3 tm-text-primary">FDM 3D Printing Fault Prediction</h3>
                         <p>
-                            Please do not redistribute our template on any website that provides downloadable template ZIP files.
-                            <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">Contact us</a> for more info.
+                            The goal of this project is to create a neural network that can accurately predict if a fault will occur given certain
+                            printer settings and a GCODE file. Neural networks require a large amount of data to train; The touch probe used in
+                            the Fault Detection project (see on the left) will be used to gather this data.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 text-center">
                     <div class="tm-box-1">
-                        <i class="fas fa-people-carry fa-4x tm-icon-1"></i>
-                        <h3 class="tm-h3 tm-text-primary">Develop Futuristic Ideas</h3>
-                        <p>Morbi tristique metus mauris, vitae tempor elit molestie egestas. Integer id tristique leo. Vivamus mattis lobortis accumsan.</p>
+                        <img src="img/minecraft-block.png" width="150" />
+                        <h3 class="tm-h3 tm-text-primary">Game Development</h3>
+                        <p>
+                            Projects in this space are my hobby. I create plugins for Minecraft for fun. Some of my projects include the following:
+                            <ul>
+                                <li>SupportBot - Utilizes a neural network to respond to player's messages so staff don't have to. Messages are parsed using a bag-of-words model and input into the neural network to give 1 of 24 responses (or no response)</li>
+                                <li>Chest Regeneration - Allows chests to regenerate after a configurable amount of time and for admin to create custom loot-tables for each chest-type. Chest data is stored in a MySQL database.</li>
+                                <li>Many more...</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
             </section>
@@ -168,12 +174,12 @@
 
             <!-- Testimonials -->
             <div class="tm-mb-2">
-                <h2 class="text-center tm-text-primary tm-h2-big tm-mb-6">Our Happy Customers</h2>
+                <h2 class="text-center tm-text-primary tm-h2-big tm-mb-6">Past Projects</h2>
                 <!-- Carousel -->
                 <div class="col-lg-6 mx-auto tm-mb-4">
                     <div class="tm-carousel">
                         <div class="text-center">
-                            <h3 class="tm-mb-4 tm-text-dark-gray">Vivamus vitae condimentum</h3>
+                            <h3 class="tm-mb-4 tm-text-dark-gray">3D Printing Fault Detection Probe (1/2)</h3>
                             <p class="tm-mb-4">Vestibulum condimentum, elit nec tempus suscipit, enim nibh aliquam eros, sit amet iaculis nibh nibh at dolor. Cras imperdiet, dolor posuere dignissim dapibus, tortor arcu pellentesque orci, et mattis libero justo semper neque.</p>
                             <div class="rating">
                                 <span class="star fas fa-star checked"></span>
@@ -184,7 +190,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <h3 class="tm-mb-4 tm-text-dark-gray">Cras imperdiet, dolor posuere</h3>
+                            <h3 class="tm-mb-4 tm-text-dark-gray">3D Printing Fault Detection Probe (2/2)</h3>
                             <p class="tm-mb-4">Elit nec tempus suscipit, enim nibh aliquam eros, sit amet iaculis nibh Vestibulum condimentum, nibh at dolor.Vivamus vitae condimentum dignissim dapibus, tortor arcu pellentesque orci, et mattis libero justo semper neque.</p>
                             <div class="rating">
                                 <span class="star fas fa-star checked"></span>
@@ -195,7 +201,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <h3 class="tm-mb-4 tm-text-dark-gray">Elit nec tempus suscipit</h3>
+                            <h3 class="tm-mb-4 tm-text-dark-gray">Support Bot</h3>
                             <p class="tm-mb-4">Cras imperdiet, dolor posuere dignissim dapibus, tortor arcu pellentesque orci, et mattis libero justo semper neque.Vivamus vitae condimentum. Elit nec tempus suscipit, enim nibh aliquam eros, sit amet iaculis nibh nibh at dolor. </p>
                             <div class="rating">
                                 <span class="star fas fa-star checked"></span>
@@ -206,7 +212,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <h3 class="tm-mb-4 tm-text-dark-gray">Tempus suscipit, enim</h3>
+                            <h3 class="tm-mb-4 tm-text-dark-gray">Eagle Scout Project</h3>
                             <p class="tm-mb-4">Tortor arcu pellentesque orci, et mattis libero justo semper neque. Vestibulum condimentum, elit nec tempus  suscipit, enim nibh aliquam eros, sit amet iaculis nibh nibh at dolor. Cras imperdiet, dolor posuere dignissim dapibus. </p>
                             <div class="rating">
                                 <span class="star fas fa-star checked"></span>
@@ -217,7 +223,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <h3 class="tm-mb-4 tm-text-dark-gray">Dolor posuere dignissim dapibus</h3>
+                            <h3 class="tm-mb-4 tm-text-dark-gray">Pencil Holder in CAD?</h3>
                             <p class="tm-mb-4">Posuere dignissim dapibus, tortor arcu pellentesque orci, et mattis libero justo semper neque. Vestibulum condimentum, elit nec tempus suscipit, enim nibh aliquam eros, sit amet iaculis nibh nibh at dolor. Vivamus vitae condimentum dolor.</p>
                             <div class="rating">
                                 <span class="star fas fa-star checked"></span>
@@ -258,7 +264,6 @@
                     <nav class="tm-nav-secondary">
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
                             <li><a href="#">Gallery</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
