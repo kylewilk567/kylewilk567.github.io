@@ -43,6 +43,10 @@ address { max-width: 400px; }
 ul, i { color: #666; }
 ul { line-height: 2; }
 
+.bottom-padding{
+    padding-bottom: 25px;
+}
+
 .tm-container {
     max-width: 1800px;
     margin: 0 auto;
