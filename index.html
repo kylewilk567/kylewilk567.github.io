@@ -49,12 +49,12 @@
                                     <li class="nav-item active">
                                         <a class="nav-link tm-nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                                     </li>
- <!--                                   <li class="nav-item">
-                                        <a class="nav-link tm-nav-link" href="gallery.html">Gallery</a>
-                                    </li>
                                     <li class="nav-item">
-                                        <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
-                                    </li> -->
+                                        <a class="nav-link tm-nav-link" onclick="document.getElementById('Note_worthy_projects').scrollIntoView();">Projects</a>
+                                    </li>
+                                    <!--                                    <li class="nav-item">
+                                           <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
+                                       </li> -->
                                 </ul>
                                 <!-- Links -->
                             </div>
@@ -107,7 +107,6 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <div class="tm-box-1">
-                        <img src="img/minecraft-block.png" width="175" />
                         <h3 class="tm-h3 tm-text-primary">Tools</h3>
                         <p>
                             Visual Studio, Solidworks, EclipseIDE, IntelliJ, Git, Bash, Maven
@@ -115,7 +114,7 @@
                     </div>
                 </div>
                 <h2 class="col-12 text-center tm-text-primary tm-my-1 tm-intro-text">Noteworthy Projects</h2>
-                <div class="col-lg-4 text-center">
+                <div id="Note_worthy_projects" class="col-lg-4 text-center">
                     <div class="tm-box-3">
                         <img src="img/autoFDPSensor.png" width="100" />
                         <h3 class="tm-h3 tm-text-primary">FDM 3D Printing Fault Detection</h3>
@@ -175,7 +174,7 @@
                         </div>
                         <div class="text-center">
                             <h3 class="tm-mb-4 tm-text-dark-gray">3D Printing Fault Detection Probe (2/2)</h3>
-                            <video width="600" controls>
+                            <video width="550" controls>
                                 <source src="videos/autoFDP_UI.mp4" type="video/mp4">
                                 Your browser cannot display this video.
                             </video>
@@ -205,13 +204,13 @@
                         </div>
                         <div class="text-center">
                             <h3 class="tm-mb-4 tm-text-dark-gray">Design and Manufacturing Solidworks Project</h3>
-                            <img src="img/SolidworksME250.png" width="600" />
+                            <img src="img/SolidworksME250.PNG" width="550" />
                             <p class="tm-mb-4">Assembly of components for a maze and centrifuge design project.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row tm-mb-7">
+ <!--           <div class="row tm-mb-7">
                 <div class="col-lg-3 col-sm-6 mb-lg-0 mb-5">
                     <h3 class="tm-text-primary tm-mb-4">Useful Readings</h3>
                     <nav class="tm-nav-secondary">
@@ -254,11 +253,13 @@
                         <a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <footer class="row">
-                <p class="mb-0 w-100 text-center col-12">
+                <p class="mb-0 w-100 text-center col-6">
                     Kyle Wilkinson &copy; 2021. All Rights Reserved.
-                    
+                </p>
+                <p class="mb-0 w-100 text-center col-6">
+                    LET'S CONNECT >> <a href="https://github.com/kylewilk567" class="tm-social-link"><i class="fab fa-github tm-social-icon"></i></a><a href="https://www.linkedin.com/in/kyle-wilkinson7/" class="tm-social-link"><i class="fab fa-linkedin-in tm-social-icon"></i></a>
                 </p>
             </footer>
         </div> <!-- container-fluid -->
