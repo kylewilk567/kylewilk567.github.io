@@ -46,15 +46,21 @@
                             <div class="collapse navbar-collapse tm-nav" id="navbarNav">
                                 <!-- Links -->
                                 <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active">
-                                        <a class="nav-link tm-nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" onclick="document.getElementById('About_me').scrollIntoView();">About Me<span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" onclick="document.getElementById('Technologies').scrollIntoView();">Technologies<span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link tm-nav-link" onclick="document.getElementById('Note_worthy_projects').scrollIntoView();">Projects</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" onclick="document.getElementById('Gallery').scrollIntoView();">Gallery</a>
+                                    </li>
                                     <!--                                    <li class="nav-item">
-                                           <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
-                                       </li> -->
+        <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
+    </li> -->
                                 </ul>
                                 <!-- Links -->
                             </div>
@@ -73,7 +79,7 @@
         <div class="container-fluid">
             <!--Intro-->
             <section class="row tm-mb-1">
-                <h2 class="col-12 text-center tm-text-primary tm-my-1 tm-intro-text">About me</h2>
+                <h2 id="About_me"class="col-12 text-center tm-text-primary tm-my-1 tm-intro-text">About me</h2>
                 <div class="col-lg-4 text-center bottom-padding">
                     <div class="tm-box-1">
                         <img src="img/ThatsMe.jpg" width="400" />
@@ -88,7 +94,7 @@
                         </p>
                     </div>
                 </div>
-                <h2 class="col-12 text-center tm-text-primary tm-my-1 tm-intro-text">Technologies</h2>
+                <h2 id="Technologies" class="col-12 text-center tm-text-primary tm-my-1 tm-intro-text">Technologies</h2>
                 <div class="col-lg-4 text-center">
                     <div class="tm-box-3">
                         <h3 class="tm-h3 tm-text-primary">Languages</h3>
@@ -113,8 +119,8 @@
                         </p>
                     </div>
                 </div>
-                <h2 class="col-12 text-center tm-text-primary tm-my-1 tm-intro-text">Noteworthy Projects</h2>
-                <div id="Note_worthy_projects" class="col-lg-4 text-center">
+                <h2 id="Note_worthy_projects" class="col-12 text-center tm-text-primary tm-my-1 tm-intro-text">Noteworthy Projects</h2>
+                <div class="col-lg-4 text-center">
                     <div class="tm-box-3">
                         <img src="img/autoFDPSensor.png" width="100" />
                         <h3 class="tm-h3 tm-text-primary">FDM 3D Printing Fault Detection</h3>
@@ -157,7 +163,7 @@
 
             <!-- Testimonials -->
             <div class="tm-mb-2">
-                <h2 class="text-center tm-text-primary tm-h2-big tm-mb-6">Gallery</h2>
+                <h2 id="Gallery" class="text-center tm-text-primary tm-h2-big tm-mb-6">Gallery</h2>
                 <!-- Carousel -->
                 <div class="col-lg-6 mx-auto tm-mb-4">
                     <div class="tm-carousel">
@@ -183,13 +189,10 @@
                         <div class="text-center">
                             <h3 class="tm-mb-4 tm-text-dark-gray">Support Bot</h3>
                             <p class="tm-mb-4">Cras imperdiet, dolor posuere dignissim dapibus, tortor arcu pellentesque orci, et mattis libero justo semper neque.Vivamus vitae condimentum. Elit nec tempus suscipit, enim nibh aliquam eros, sit amet iaculis nibh nibh at dolor. </p>
-                            <div class="rating">
-                                <span class="star fas fa-star checked"></span>
-                                <span class="star fas fa-star checked"></span>
-                                <span class="star fas fa-star checked"></span>
-                                <span class="star fas fa-star checked"></span>
-                                <span class="star fas fa-star"></span>
-                            </div>
+                            <video width="550" controls>
+                                <source src="videos/SupportBot.mp4" type="video/mp4">
+                                Your browser cannot display this video.
+                            </video>
                         </div>
                         <div class="text-center">
                             <h3 class="tm-mb-4 tm-text-dark-gray">Eagle Scout Project</h3>
@@ -259,7 +262,7 @@
                     Kyle Wilkinson &copy; 2021. All Rights Reserved.
                 </p>
                 <p class="mb-0 w-100 text-center col-6">
-                    LET'S CONNECT >> <a href="https://github.com/kylewilk567" class="tm-social-link"><i class="fab fa-github tm-social-icon"></i></a><a href="https://www.linkedin.com/in/kyle-wilkinson7/" class="tm-social-link"><i class="fab fa-linkedin-in tm-social-icon"></i></a>
+                    LET'S CONNECT >>   <a href="https://github.com/kylewilk567" class="tm-social-link"><i class="fab fa-github tm-social-icon"></i></a><a href="https://www.linkedin.com/in/kyle-wilkinson7/" class="tm-social-link"><i class="fab fa-linkedin-in tm-social-icon"></i></a>
                 </p>
             </footer>
         </div> <!-- container-fluid -->
