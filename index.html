@@ -99,7 +99,7 @@
                     <div class="tm-box-3">
                         <h3 class="tm-h3 tm-text-primary">Languages</h3>
                         <p>
-                            Java, C++, Python, SQL, HTML, CSS, Javascript, MATLAB
+                            Java, C++, Python, SQL, HTML, CSS, Javascript, Verilog, MATLAB
                         </p>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                     <div class="tm-box-1">
                         <h3 class="tm-h3 tm-text-primary">Libraries</h3>
                         <p>
-                            PyTorch, Numpy, Scikit-learn, Matplotlib, Bootstrap, Knockout
+                            PyTorch, Python multiprocessing, Numpy, Scikit-learn, Matplotlib, Bootstrap, Knockout
                         </p>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                         <h3 class="tm-h3 tm-text-primary">FDM 3D Printing Fault Prediction</h3>
                         <p>
                             The goal of this project is to create a neural network that can accurately predict if a fault will occur given certain
-                            printer settings and a GCODE file. Neural networks require a large amount of data to train; The touch probe used in
+                            printer settings and a GCODE file. Neural networks require a large amount of data to train; the touch probe used in
                             the Fault Detection project (see on the left) will be used to gather this data.
                         </p>
                     </div>
@@ -173,8 +173,10 @@
                                 <source src="videos/autoFDP_Sample.mp4" type="video/mp4">
                                 Your browser cannot display this video.
                             </video>
-                            <p>Touch-probe using hall effect sensor and push-pull solenoid detects a wide-range faults in FDM 3D printers.
-                            Uses multi-processing to generate sample points while printing allowing for more computation time with minimal effect to print time.</p>
+                            <p class="tm-mb-4 gallery-desc">Touch-probe using hall effect sensor and push-pull solenoid detects a wide-range faults in FDM 3D printers.
+                            I used a Python multiprocessing library to generate sample points while printing allowing for more computation time with minimal effect to print time.
+                            Sample points are also generated proportionally to the cross-sectional area of the 3D print to improve detection on larger layers. This is done using density clustering to divide the layer into regions
+                            and then summing the area of each cluster's convex hull.</p>
                         </div>
                         <div class="text-center">
                             <h3 class="tm-mb-4 tm-text-dark-gray">3D Printing Fault Detection Probe (2/2)</h3>
@@ -182,7 +184,7 @@
                                 <source src="videos/autoFDP_UI.mp4" type="video/mp4">
                                 Your browser cannot display this video.
                             </video>
-                            <p class="tm-mb-4">Sample user interface creation including a sample-point viewer with pan and zoom controls and other user controls.</p>
+                            <p class="tm-mb-4 gallery-desc">I created a user interface including a sample-point viewer with pan and zoom controls, layer selection buttons, and sample-point settings.</p>
                         </div>
                         <div class="text-center">
                             <h3 class="tm-mb-4 tm-text-dark-gray">Support Bot</h3>
@@ -190,19 +192,28 @@
                                 <source src="videos/SupportBot.mp4" type="video/mp4">
                                 Your browser cannot display this video.
                             </video>
-                            <p class="tm-mb-4">Support bot created for Minecraft server using a Neural Network programmed in Java. Pre-processing player messages using
-                            a Bag-of-Words Model to use as input for the network. The network decides between 25 responses (or no response) based on input.</p>
+                            <p class="tm-mb-4 gallery-desc">Support bot created for Minecraft server using a neural network programmed in Java. Pre-processing player messages is done
+                            using a Bag-of-Words Model to use as input for the network. The network decides between 25 responses (or no response) based on this input and gives its 
+                            response using a configurable, clickable message. This method allows a minecraft server to support their players when staff members cannot. However,
+                            because neural networks require a great deal of data to train, this solution will take time to become proficient. A data collection
+                            system will need to be implemented to continue training the bot.</p>
                         </div>
                         <div class="text-center">
                             <h3 class="tm-mb-4 tm-text-dark-gray">Eagle Scout Project</h3>
-                            <p class="tm-mb-4">Tortor arcu pellentesque orci, et mattis libero justo semper neque. Vestibulum condimentum, elit nec tempus  suscipit, enim nibh aliquam eros, sit amet iaculis nibh nibh at dolor. Cras imperdiet, dolor posuere dignissim dapibus. </p>
-                            <div class="rating">
-                                <span class="star fas fa-star checked"></span>
-                                <span class="star fas fa-star checked"></span>
-                                <span class="star fas fa-star checked"></span>
-                                <span class="star fas fa-star checked"></span>
-                                <span class="star fas fa-star"></span>
-                            </div>
+                            <img src="img/Eagle_install.jpg" width="250" />
+                            <img src="img/Eagle_garage.jpg" width="250" />
+                            <img src="img/Eagle_final2.jpg" width="250" />
+                            <img src="img/Eagle_final.jpg" width="250" />
+                            <p class="tm-mb-4 gallery-desc2">
+                                I built three Little Free Pantries for elementary schools in the Walled Lake Consolidated School District. The project
+                                initially was to build one pantry. After learning about a classmate who I knew for several years and was in need of food, I decided to
+                                build more to help families like hers. The reason for Little Free Pantries is more than just giving food to the community. It's a way
+                                for people in need to take without having to ask and teaches younger students about food poverty.
+                            </p><br>
+                            <p class="tm-mb-4 gallery-desc2">
+                                The project was a test to my leadership ability and flexibility. I worked with my troop to build the pantries and planned ahead by creating
+                                stations and diagrams to help communicate the jobs that needed to be done. <br>The pantries are being used frequently after being installed almost three years ago.
+                            </p>
                         </div>
                         <div class="text-center">
                             <h3 class="tm-mb-4 tm-text-dark-gray">Design and Manufacturing Solidworks Project</h3>
