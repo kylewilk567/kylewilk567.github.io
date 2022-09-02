@@ -107,7 +107,7 @@
                     <div class="tm-box-1">
                         <h3 class="tm-h3 tm-text-primary">Libraries</h3>
                         <p>
-                            PyTorch, Python multiprocessing, Numpy, Scikit-learn, Matplotlib, Bootstrap, Knockout
+                           Numpy, Scikit-learn, Matplotlib, Bootstrap
                         </p>
                     </div>
                 </div>
@@ -152,9 +152,9 @@
                         <p>
                             Projects in this space are my hobby. I create plugins for Minecraft for fun. Some of my projects include the following:
                             <ul>
-                                <li><b>SupportBot - </b>Utilizes a neural network to respond to player's messages so staff don't have to. Messages are parsed using a bag-of-words model and input into the neural network to give 1 of 24 responses (or no response)</li>
+                                <li><b>RoadBuilder - </b>An API that allows other plugins to automatically generate roads between 2 locations in a 3D Minecraft world using a greedy pathfinding algorithm. Short video <a href="#roadVideo">here</a></li>
                                 <li><b>Chest Regeneration - </b>Allows chests to regenerate after a configurable amount of time and for admin to create custom loot-tables for each chest-type. Chest data is stored in a MySQL database.</li>
-                                <li><b>RoadBuilder - </b>An API that allows other plugins to automatically generate roads between 2 locations in a 3D Minecraft world using a greedy pathfinding algorithm.</li>
+                                <li><b>SupportBot - </b>Utilizes a neural network to respond to player's messages so staff don't have to. Messages are parsed using a bag-of-words model and input into the neural network to give 1 of 24 responses</li>
                             </ul>
                         </p>
                     </div>
@@ -196,17 +196,15 @@
                             of the fan.</p>
                         </div>
                         <div class="text-center">
-                            <h3 class="tm-mb-4 tm-text-dark-gray">Support Bot</h3>
-                            <video width="550" controls>
-                                <source src="videos/SupportBot.mp4" type="video/mp4">
+                            <h3 class="tm-mb-4 tm-text-dark-gray">RoadBuilder (Pathfinding API)</h3>
+                            <video id="roadVideo" width="550" controls>
+                                <source src="videos/RoadBuilder_WithName.mp4" type="video/mp4">
                                 Your browser cannot display this video.
                             </video>
                             <p class="tm-mb-4 gallery-desc">
-                                Support bot created for Minecraft server using a neural network programmed in Java. Pre-processing player messages is done
-                                using a Bag-of-Words Model to use as input for the network. The network decides between 25 responses (or no response) based on this input and gives its
-                                response using a configurable, clickable message. This method allows a minecraft server to support their players when staff members cannot. However,
-                                because neural networks require a great deal of data to train, this solution will take time to become proficient. A data collection
-                                system will need to be implemented to continue training the bot.
+                                Project in-progress (estimated completion Dec. 22). A Java pathfinding plugin for Minecraft that traverses a 3D "blocky" world.
+                                Supports different path-finding and path-building algorithms at runtime (strategy design pattern). Stores data in MySQL
+                                database to allow for road degeneration. Uses a greedy algorithm to generate paths quickly.
                             </p>
                         </div>
                         <div class="text-center">
@@ -289,7 +287,7 @@
             </div> -->
             <footer class="row">
                 <p class="mb-0 w-100 text-center col-12" style="float:right">
-                    Download my <a href="/KyleInternshipResume.pdf" download="Kyle_Wilkinson_Resume.pdf">resume</a> and <a href="/KyleUnofficialTranscript.pdf" download="Kyle_Wilkinson_Transcript.pdf">transcript</a>
+                    Download my <a href="/KyleResumeF22.pdf" download="Wilkinson_Kyle_Resume.pdf">resume</a> and <a href="/Wilkinson_Kyle_Unofficial_Transcript_F22.pdf" download="=Wilkinson_Kyle_Transcript.pdf">transcript</a>
                 </p>
                 <p class="mb-0 w-100 text-center col-6">
                     Kyle Wilkinson &copy; 2022. All Rights Reserved.
